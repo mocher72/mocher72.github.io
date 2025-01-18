@@ -4,4 +4,4 @@
 
 ## Github code examples
 
-['Code Example Test'](./test.ipynb)
+['Code Example Test'](./test_nb.md)
