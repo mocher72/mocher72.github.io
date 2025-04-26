@@ -14,6 +14,10 @@ The following steps will be done.
 1. Setup miniforge for Python management using mamba
 1. Install VSCode and extensions
 
+The end results will be a git aware visually useful terminal with a couple of expanded tool replacing ls and cat.
+<img width="1067" alt="image" src="https://github.com/user-attachments/assets/62f1d619-8c13-453a-989a-86b9b9a80de0" />
+
+
 ## Install terminal
 ### Windows
 Use the windows terminal, if not alread installed you can load it from the app store here.
