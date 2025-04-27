@@ -29,6 +29,55 @@ To install iTerm2 enter the following command in any terminal
 
 `brew install iterm2`
 
+## Install Ubuntu
+### Windows
+wsl should be already installed if on windows 11.
+list the online distros you can install
+
+`wsl --list --online`
+
+
+<img width="1115" alt="image" src="https://github.com/user-attachments/assets/8f2c5162-3a96-451b-9ca7-617776ab51ab" />
+if not installed it will prompt you to install wsl.  Then please reboot :) after install of **wsl**.
+
+then install Ubuntu
+
+`wsl --install Ubuntu`
+
+This will then go through the installation process.
+
+## Install nano and make it colourful
+
+### MacOS
+`brew install nano`
+
+Then edit the .nanorc file and add the following line
+
+`include "/opt/homebrew/share/nano/*.nanorc"`
+
+
+### Windows/WSL
+`sudo apt install nano`
+
+Then edit the .nanorc file and add the following line (`nano ~/.nanorc`)
+
+`include "/ust/share/nano/*.nanorc"`
+
+Optionally for both Mac and WSL you can add the following settings to the top of the ~/.nanorc file
+
+```
+set tabsize 4
+set tabstospaces
+set autoindent
+set linenumbers
+set constantshow
+set titlecolor white,red
+set keycolor cyan
+set functioncolor cyan
+set numbercolor yellow
+set mouse
+```
+
 ## Install zsh and ohmyzsh customisation
 
 
@@ -36,12 +85,7 @@ zsh and customisation using ohmyzsh.
 console command eza in place of ll
 Open Windows Terminal, if not installed then install it from windows store. 
 
-wsl should be already installed if on windows 11.
-list the online distros you can install
-wsl --list --online
-then install the latest Ubuntu
-wsl --install -d Ubuntu-24.04
-This will then go through the installation process.
+
 Install Visual Studio Code from the Microsoft Store
 now to install some stuff in wsl.
 In Terminal open an Ubuntu shell
